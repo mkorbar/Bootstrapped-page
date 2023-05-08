@@ -24,3 +24,8 @@ a:link {
             cursor: pointer;
 			margin: 15px 0;
         }
+
+.carousel-item.active img {
+    max-height: 400px;
+    object-fit: cover;
+}
